@@ -1,4 +1,4 @@
-import useToggle from "../hooks/useToggle";
+import useToggle from "./useToggle";
 
 function Toggle({ defaultValue }) {
   const [value, toggleValue] = useToggle(defaultValue);

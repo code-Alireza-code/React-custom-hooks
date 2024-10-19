@@ -1,4 +1,4 @@
-import useArray from "../hooks/useArray";
+import useArray from "./useArray";
 
 function ArrayComponent() {
   const { array, set, push, remove, filter, update, clear } = useArray([
