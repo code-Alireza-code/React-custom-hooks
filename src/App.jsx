@@ -26,6 +26,11 @@ import WindowSize from "./hooks/useWindowSize/WIndowSize";
 import CopyToClipboard from "./hooks/useCopyToClipboard/CopyToClipboard";
 import Cookie from "./hooks/useCookie/Cookie";
 import Translation from "./hooks/useTranslation/Translation";
+import OnlineStatus from "./hooks/useOnlineStatus/OnlineStatus";
+import RenderCount from "./hooks/useRenderCount/RenderCount";
+import DebugInformation from "./hooks/useDebugInformation/DebugInformation";
+import Hover from "./hooks/useHover/Hover";
+import LongPress from "./hooks/useLongPress/LongPress";
 
 function App() {
   return (
@@ -54,7 +59,12 @@ function App() {
       {/* <DarkMode /> */}
       {/* <CopyToClipboard /> */}
       {/* <Cookie /> */}
-      <Translation />
+      {/* <Translation /> */}
+      {/* <OnlineStatus /> */}
+      {/* <RenderCount /> */}
+      {/* <DebugInformation /> */}
+      {/* <Hover /> */}
+      {/* <LongPress /> */}
     </div>
   );
 }
