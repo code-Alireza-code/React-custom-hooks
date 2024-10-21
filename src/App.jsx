@@ -1,6 +1,9 @@
 import "./App.css";
+import "./hooks/useDarkMode/body.css";
 import ArrayComponent from "./hooks/useArray/Array";
 import Async from "./hooks/useAsync/Async";
+import ClickOutside from "./hooks/useClickOutside/ClickOutside";
+import DarkMode from "./hooks/useDarkMode/DarkMode";
 import Debounce from "./hooks/useDebounce/Debounce";
 import DeepCompareEffect from "./hooks/useDeepCompareEffect/DeepCompareEffect";
 import EffectOnce from "./hooks/useEffectOnce/EffectOnce";
@@ -20,6 +23,9 @@ import Timeout from "./hooks/useTimeout/Timeout";
 import Toggle from "./hooks/useToggle/Toggle";
 import UpdateEffect from "./hooks/useUpdateEffect/UpdateEffect";
 import WindowSize from "./hooks/useWindowSize/WIndowSize";
+import CopyToClipboard from "./hooks/useCopyToClipboard/CopyToClipboard";
+import Cookie from "./hooks/useCookie/Cookie";
+import Translation from "./hooks/useTranslation/Translation";
 
 function App() {
   return (
@@ -44,6 +50,11 @@ function App() {
       {/* <StateWithValidation /> */}
       {/* <Size /> */}
       {/* <EffectOnce /> */}
+      {/* <ClickOutside /> */}
+      {/* <DarkMode /> */}
+      {/* <CopyToClipboard /> */}
+      {/* <Cookie /> */}
+      <Translation />
     </div>
   );
 }
